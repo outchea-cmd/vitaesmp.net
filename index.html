@@ -90,6 +90,24 @@
 
     .nav-links a:hover { color: var(--text); }
 
+    .nav-store {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+      text-decoration: none;
+      border: 1px solid var(--green);
+      padding: 0.35rem 0.85rem;
+      border-radius: 3px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .nav-store:hover {
+      background: var(--green);
+      color: #fff;
+    }
+
     /* HERO */
     #hero {
       position: relative;
@@ -486,6 +504,7 @@
       <li><a href="#rules">Rules</a></li>
       <li><a href="https://discord.gg/dnvkPgXbN5" target="_blank" rel="noopener">Discord</a></li>
     </ul>
+    <a class="nav-store" href="https://vitaesmp.tebex.io" target="_blank" rel="noopener">Store</a>
   </nav>
 
   <section id="hero">
