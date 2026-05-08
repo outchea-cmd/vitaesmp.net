@@ -790,7 +790,7 @@
 
   <!-- ANNOUNCEMENT BAR — edit the text between the spans below -->
   <div class="announcement-bar" id="annBar">
-    <span>🟢 Season 1 opens <strong>May 8th</strong> — server IP: <strong>(REDACTED)</strong> &nbsp;·&nbsp; Founding Member pricing live now — <a href="https://store.vitaesmp.net" target="_blank" rel="noopener">Shop the discount →</a></span>
+    <span>🟢 Season 1 opens <strong>May 8th</strong> — server IP: <strong>play.vitaesmp.net</strong> &nbsp;·&nbsp; Founding Member pricing live now — <a href="https://store.vitaesmp.net" target="_blank" rel="noopener">Shop the discount →</a></span>
     <button class="ann-close" onclick="document.getElementById('annBar').style.display='none'" aria-label="Close">✕</button>
   </div>
 
@@ -817,7 +817,7 @@
     </p>
 
     <div class="ip-row">
-      <div class="ip-display">(REDACTED)</div>
+      <div class="ip-display">play.vitaesmp.net</div>
       <button class="btn-copy" id="copyBtn" onclick="copyIP()">▶ Play Now</button>
     </div>
 
@@ -1071,7 +1071,7 @@
     document.getElementById('footerIcon').src = iconSrc;
 
     // Copy IP
-    const SERVER_IP = '(REDACTED)';
+    const SERVER_IP = 'play.vitaesmp.net';
 
     function copyIP() {
       navigator.clipboard.writeText(SERVER_IP).then(() => {
